@@ -24,9 +24,11 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 flex flex-col gap-6 shadow-2xl">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-tr from-white/30 to-white/10 border border-white/20 flex items-center justify-center text-[15px] font-bold tracking-wider text-white">
-                  SYED
-                </div>
+                <img
+                  src="/image.png"
+                  alt={PERSONAL_INFO.name}
+                  className="w-14 h-14 rounded-full object-cover border-2 border-white/20 shadow-lg shrink-0"
+                />
                 <div>
                   <h3 className="font-semibold text-white text-lg">{PERSONAL_INFO.name}</h3>
                   <p className="text-xs text-white/60">{PERSONAL_INFO.handle}</p>

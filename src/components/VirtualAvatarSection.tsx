@@ -158,9 +158,11 @@ export const VirtualAvatarSection: React.FC = () => {
                       }`}
                     >
                       {msg.sender === 'avatar' && (
-                        <div className="w-7 h-7 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-[11px] font-bold text-white shrink-0 mt-0.5">
-                          AI
-                        </div>
+                        <img
+                          src="/image.png"
+                          alt="Syed Abrar Husain"
+                          className="w-7 h-7 rounded-full object-cover border border-white/20 shrink-0 mt-0.5"
+                        />
                       )}
                       <div className="space-y-1">
                         <div
@@ -185,9 +187,11 @@ export const VirtualAvatarSection: React.FC = () => {
 
                   {isTyping && (
                     <div className="flex gap-3 max-w-[85%]">
-                      <div className="w-7 h-7 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-[11px] font-bold text-white shrink-0">
-                        AI
-                      </div>
+                      <img
+                        src="/image.png"
+                        alt="Syed Abrar Husain"
+                        className="w-7 h-7 rounded-full object-cover border border-white/20 shrink-0"
+                      />
                       <div className="bg-white/10 border border-white/10 p-3 rounded-2xl rounded-tl-none flex items-center gap-1.5">
                         <span className="w-2 h-2 bg-white/60 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
                         <span className="w-2 h-2 bg-white/60 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
