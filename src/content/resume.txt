@@ -1,0 +1,97 @@
+SYED ABRAR HUSAIN
+Fullstack Developer | 4th Year B.Tech Computer Science & Engineering
+Email: husainabrar870@gmail.com
+GitHub: https://github.com/Abrar-Husain-870
+LinkedIn: https://www.linkedin.com/in/syed-abrar-husain-8833072b7/
+Portfolio: https://abrar-husain-portfolio.vercel.app
+
+==================================================
+SUMMARY & PROFILE
+==================================================
+I am a passionate Fullstack Developer currently in my final (4th) year pursuing a B.Tech in Computer Science & Engineering at Integral University, Lucknow. I specialize in building scalable web applications, API design, and intuitive user experiences using React, Next.js, Node.js, Python, Java, PostgreSQL, Supabase, Firebase, and Tailwind CSS.
+
+==================================================
+EDUCATION & ACADEMICS
+==================================================
+1. B.Tech in Computer Science & Engineering (Oct 2023 – Sep 2027)
+   - Institution: Integral University, Lucknow
+   - Status: 4th Year / Final Year
+   - CGPA: 8.1 / 10
+   - Core Coursework: Data Structures & Algorithms, Database Management Systems (PostgreSQL, SQL), Operating Systems (Linux), Web Technologies, Computer Networks, Software Engineering.
+
+2. Higher Secondary Education (Completed April 2023)
+   - Institution: La Martiniere College, Lucknow
+   - CGPA: 8.3 / 10
+   - Focus: Mathematics, Physics, and Computer Science.
+
+==================================================
+FEATURED PROJECTS & FULLSTACK WORK
+==================================================
+1. AppFlix (University App Marketplace)
+   - Overview: AppFlix is a university app marketplace platform designed to help students discover useful campus tools and applications. It provides student developers with a centralized platform to publish their projects, reach real campus users, receive community feedback, and track user engagement.
+   - Core Features: User authentication, project submissions, category discovery, rating & reviews, analytics dashboard.
+   - Tech Stack: Next.js, React, TypeScript, Tailwind CSS, Supabase (Auth, Storage, Database), PostgreSQL.
+   - Live Demo: https://appflix-com.netlify.app/
+   - GitHub Repository: https://github.com/Abrar-Husain-870/AppFlix
+
+2. Writify (Student Assignment Platform)
+   - Overview: Writify is a university assignment workflow system engineered to streamline assignment management, submission tracking, and instructor feedback, saving users up to 8 hours weekly.
+   - Core Features: Google OAuth 2.0 authentication, JWT session management, dark mode responsive UI, assignment author profiles.
+   - Tech Stack: React, TypeScript, Node.js, Express, PostgreSQL, Tailwind CSS, JWT.
+   - Live Demo: https://writify-app-huxg.vercel.app/login
+   - GitHub Repository: https://github.com/Abrar-Husain-870/WritifyApp
+
+3. Jamā’ah Journal (Prayer & Reflection Tracker)
+   - Overview: A multi-faith prayer and reflection tracking web app serving 100+ active users. Built as a Progressive Web App (PWA) supporting offline access and mobile installation.
+   - Core Features: Streak tracking, analytics dashboard, community leaderboards, offline PWA storage, privacy controls.
+   - Tech Stack: React 18, Firebase (Firestore, Auth), Tailwind CSS, PWA, Analytics.
+   - Live Demo: https://jamaah-journal-2-0.vercel.app/
+   - GitHub Repository: https://github.com/Abrar-Husain-870/PrayerTracker
+
+4. Keeper (Google Keep Clone)
+   - Overview: A note-taking application inspired by Google Keep featuring real-time synchronization and user-specific note management.
+   - Core Features: Notes CRUD operations, note archiving/trashing, real-time Firestore synchronization, Firebase Auth.
+   - Tech Stack: React, Firebase Auth, Firestore, Tailwind CSS.
+   - Live Demo: https://keepon.netlify.app/
+   - GitHub Repository: https://github.com/Abrar-Husain-870/Keeper-Clone
+
+5. Move It (Logistics Landing Page)
+   - Overview: A modern, responsive marketing website for a furniture moving and logistics service.
+   - Core Features: Responsive UI/UX, service showcase, contact forms, cross-browser compatibility.
+   - Tech Stack: HTML5, CSS3, JavaScript.
+   - Live Demo: https://abrar-husain-870.github.io/Move-It_website/
+   - GitHub Repository: https://github.com/Abrar-Husain-870/Move-It_website/
+
+6. E-Commerce Store (Storefront Web App)
+   - Overview: A single-page storefront connected to the Fake Store API featuring product browsing, detailed views, and cart state management.
+   - Core Features: Product filtering, dynamic cart quantity updates, REST API integration, Material UI components.
+   - Tech Stack: React, TypeScript, Material UI, REST API, React Router.
+   - Live Demo: https://e-commerce-app-livid-three.vercel.app/products
+   - GitHub Repository: https://github.com/Abrar-Husain-870/E-Commerce-App
+
+==================================================
+WORK EXPERIENCE & INTERNSHIPS
+==================================================
+1. Full Stack Java Development Intern — ExcelR (July 2026 – Dec 2026)
+   - Engineered enterprise Java web applications using Core Java, Spring Boot microservices, and REST APIs.
+   - Built responsive ReactJS + Tailwind CSS frontends integrated with Java backends.
+   - Optimized SQL database queries and performed API testing with Postman.
+
+2. Python Data Science Intern — ETrain (Jun 2026 – Jul 2026)
+   - Processed and analyzed tabular datasets using Python, NumPy, and Pandas.
+   - Developed automated data cleaning scripts and visualization reports.
+
+==================================================
+TECHNICAL SKILLS & TOOLS
+==================================================
+- Programming Languages: Python, Java, C, C++, HTML5, CSS3, JavaScript (ES6+), TypeScript, SQL
+- Technologies & Frameworks: ReactJS, Next.js, Node.js, ExpressJS, REST API, Tailwind CSS, Linux, Firebase, Supabase, PostgreSQL
+- Developer Tools: VS Code, Git, GitHub, Postman, Vercel, Netlify, JWT & OAuth
+- Python Libraries: NumPy, Pandas
+
+==================================================
+LEADERSHIP & EXTRACURRICULAR ACTIVITIES
+==================================================
+- Event Coordinator: Fiesta Cultural Fest (Integral University, Feb 2025)
+- Tech Team Member: Website Management Team (Integral University, Feb 2025)
+- Hackathon Participant: IIT Kanpur National Hackathon (Aug 2024)

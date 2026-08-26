@@ -1,0 +1,94 @@
+{
+  "basicInfo": {
+    "name": "Syed Abrar Husain",
+    "handle": "@Abrar-Husain-870",
+    "title": "Full Stack Developer",
+    "degree": "B.Tech in Computer Science & Engineering (4th Year / Final Year)",
+    "institution": "Integral University, Lucknow",
+    "cgpa": "8.1 / 10",
+    "highSchool": "La Martiniere College, Lucknow (CGPA: 8.3 / 10)",
+    "contact": {
+      "email": "husainabrar870@gmail.com",
+      "github": "https://github.com/Abrar-Husain-870",
+      "linkedin": "https://www.linkedin.com/in/syed-abrar-husain-8833072b7/"
+    }
+  },
+  "skills": {
+    "Languages": ["Python", "Java", "C", "C++", "HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "SQL"],
+    "Technologies & Frameworks": ["ReactJS", "Next.js", "Node.js", "ExpressJS", "REST API", "Tailwind CSS", "Linux", "Firebase", "Supabase", "PostgreSQL"],
+    "Developer Tools": ["VS Code", "Git", "GitHub", "Postman", "PostgreSQL", "Deployment & Hosting", "JWT & OAuth"],
+    "Python Libraries": ["NumPy", "Pandas"]
+  },
+  "projects": [
+    {
+      "name": "AppFlix",
+      "description": "University app marketplace that helps students discover useful campus applications while giving student developers a platform to showcase projects and gather feedback.",
+      "techStack": ["Next.js", "React", "TypeScript", "TailwindCSS", "Supabase", "PostgreSQL"],
+      "liveUrl": "https://appflix-com.netlify.app/",
+      "githubUrl": "https://github.com/Abrar-Husain-870/AppFlix"
+    },
+    {
+      "name": "Writify",
+      "description": "University student assignment platform with Google OAuth, JWT sessions, and PostgreSQL. Responsive React + Tailwind UI with dark mode for managing assignments and feedback.",
+      "techStack": ["React", "TypeScript", "Node.js", "PostgreSQL", "TailwindCSS", "JWT"],
+      "liveUrl": "https://writify-app-huxg.vercel.app/login",
+      "githubUrl": "https://github.com/Abrar-Husain-870/WritifyApp"
+    },
+    {
+      "name": "Jamā’ah Journal",
+      "description": "Multi-faith prayer & reflection tracker application with streak analytics, leaderboard, and PWA offline capability powered by Firebase and React 18.",
+      "techStack": ["React", "Firebase", "TailwindCSS", "PWA", "Analytics"],
+      "liveUrl": "https://jamaah-journal-2-0.vercel.app/",
+      "githubUrl": "https://github.com/Abrar-Husain-870/PrayerTracker"
+    },
+    {
+      "name": "Keeper",
+      "description": "A Google Keep clone built with React and Firebase. Features user-specific note management via Firebase Auth and real-time Firestore database synchronization.",
+      "techStack": ["React", "Firebase", "Firestore", "Auth", "TailwindCSS"],
+      "liveUrl": "https://keepon.netlify.app/",
+      "githubUrl": "https://github.com/Abrar-Husain-870/Keeper-Clone"
+    },
+    {
+      "name": "Move It",
+      "description": "Transportation service landing page for furniture and logistics services. Built as a clean, responsive web page using semantically structured HTML and CSS.",
+      "techStack": ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+      "liveUrl": "https://abrar-husain-870.github.io/Move-It_website/",
+      "githubUrl": "https://github.com/Abrar-Husain-870/Move-It_website/"
+    },
+    {
+      "name": "E-Commerce Store",
+      "description": "Single-page e-commerce storefront integrated with the Fake Store API. Features product browsing, detail views, cart state management, and item quantity updates.",
+      "techStack": ["React", "TypeScript", "Material UI", "REST API", "React Router"],
+      "liveUrl": "https://e-commerce-app-livid-three.vercel.app/products",
+      "githubUrl": "https://github.com/Abrar-Husain-870/E-Commerce-App"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Java Development Intern",
+      "organization": "ExcelR",
+      "period": "July 2026 – Dec 2026",
+      "details": "Worked on fullstack Java web applications using Core Java, Spring Boot microservices, REST APIs, and ReactJS with Tailwind CSS."
+    },
+    {
+      "role": "Python Data Science Intern",
+      "organization": "ETrain",
+      "period": "Jun 2026 – Jul 2026",
+      "details": "Analyzed tabular datasets using Python, NumPy, and Pandas to derive statistical insights and build automated data pipelines."
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science & Engineering",
+      "institution": "Integral University, Lucknow",
+      "period": "Oct 2023 – Sep 2027 (4th Year / Final Year)",
+      "cgpa": "8.1 / 10"
+    },
+    {
+      "degree": "Higher Secondary Education",
+      "institution": "La Martiniere College, Lucknow",
+      "period": "Completed April 2023",
+      "cgpa": "8.3 / 10"
+    }
+  ]
+}
