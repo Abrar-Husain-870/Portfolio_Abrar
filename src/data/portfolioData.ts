@@ -64,8 +64,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: ["VS Code", "Git", "GitHub", "Postman", "PostgreSQL", "Deployment & Hosting", "JWT & OAuth"]
   },
   {
-    title: "Python Libraries",
-    skills: ["NumPy", "Pandas"]
+    title: "AI Tools & Data Science",
+    skills: ["Cursor", "Claude AI", "ChatGPT", "Groq API", "NumPy", "Pandas"]
   }
 ];
 
@@ -221,7 +221,7 @@ export function generateBotResponse(userMessage: string): string {
   const msg = userMessage.toLowerCase().trim();
 
   if (msg.includes("skill") || msg.includes("top skills") || msg.includes("stack") || msg.includes("technolog")) {
-    return "Syed is a Fullstack Developer proficient in React, Next.js, Node.js, Express, TypeScript, Python, Java, PostgreSQL, Supabase, Firebase, and Tailwind CSS. He also has solid experience with Git, Postman, Linux, and Python libraries like NumPy & Pandas!";
+    return "Syed is a Fullstack Developer proficient in React, Next.js, Node.js, Express, TypeScript, Python, Java, PostgreSQL, Supabase, Firebase, and Tailwind CSS. He also utilizes AI coding tools like Cursor, Claude AI, ChatGPT, Groq API, and Python data libraries like NumPy & Pandas!";
   }
 
   if (msg.includes("writify")) {
