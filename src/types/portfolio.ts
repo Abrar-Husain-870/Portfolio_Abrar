@@ -10,6 +10,9 @@ export interface Project {
   spotlight?: boolean;
   role?: string;
   impact?: string;
+  longDescription?: string;
+  features?: string[];
+  highlights?: string[];
 }
 
 export interface Stat {

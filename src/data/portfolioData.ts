@@ -1,10 +1,10 @@
 import { Project, Stat, SkillCategory, ExperienceItem } from '../types/portfolio';
 
 import appflixImg from '../projects/appflix.png';
+import finsightImg from '../projects/FinSight.png';
 import writifyImg from '../projects/writify.png';
 import jamaahImg from '../projects/jamaah journal.png';
 import keeperImg from '../projects/keeper.png';
-import moveitImg from '../projects/MoveIt.png';
 import ecommerceImg from '../projects/e-commerce.png';
 
 export const PERSONAL_INFO = {
@@ -74,6 +74,7 @@ export const PROJECTS: Project[] = [
     id: "appflix",
     title: "AppFlix",
     description: "A university app marketplace that helps students discover useful campus applications while giving student developers a platform to showcase their projects and gather user feedback.",
+    longDescription: "AppFlix is a university-centric application marketplace designed to bridge the gap between student developers and campus users. It solves the distribution challenge for student software creators by giving them an immediate audience, while students gain access to specialized tools built specifically for their campus needs.",
     category: "Next.js",
     tags: ["Next.js", "React", "TypeScript", "TailwindCSS", "Supabase", "PostgreSQL"],
     image: appflixImg,
@@ -81,12 +82,42 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Abrar-Husain-870/AppFlix",
     spotlight: true,
     role: "Campus App Marketplace",
-    impact: "Next.js & Supabase"
+    impact: "Next.js & Supabase",
+    features: [
+      "Campus-tailored app discovery with category filtering and keyword search",
+      "Developer submission portal with media showcases and release notes",
+      "Interactive peer review and ratings system for community feedback",
+      "Full backend architecture with Supabase Auth, PostgreSQL, and storage buckets",
+      "Developer dashboard with real-time download and engagement metrics"
+    ]
+  },
+  {
+    id: "finsight",
+    title: "FinSight",
+    description: "An AI-powered personal finance manager that helps users track spending habits, measure financial health, and test future budget plans with interactive sliders. Features real-time AI coaching, impulse purchase tracking, and automated bank CSV imports.",
+    longDescription: "FinSight is an intelligent personal finance platform engineered to bridge behavioral economics with machine intelligence. Rather than static spreadsheets, FinSight acts as a 24/7 personal financial coach—analyzing transactional patterns, evaluating financial vitality across 4 core pillars, and empowering users to test hypothetical financial decisions with real-time sliders before committing real money.",
+    category: "React",
+    tags: ["React", "TypeScript", "Node.js", "PostgreSQL"],
+    image: finsightImg,
+    liveUrl: "https://finsight-ai-updated.vercel.app/",
+    githubUrl: "https://github.com/Abrar-Husain-870/Finsight-AI",
+    spotlight: true,
+    role: "Financial Intelligence",
+    impact: "React & PostgreSQL",
+    features: [
+      "Real-time AI financial coaching with conversational guidance and proactive alerts",
+      "Interactive 'What-If' budget simulation sliders to forecast future scenarios",
+      "Automated bank CSV statement parsing and instant smart categorization",
+      "4-Pillar Financial Health Score Engine (Savings, Spending, Debt, Buffer)",
+      "Impulse purchase tracker that highlights behavioral spending leaks",
+      "Privacy-first architecture with deterministic ledger calculations"
+    ]
   },
   {
     id: "writify",
     title: "Writify",
     description: "University student assignment platform with Google OAuth, JWT sessions, and PostgreSQL. Responsive React + Tailwind UI with dark mode for managing assignments and feedback.",
+    longDescription: "Writify is a university assignment workflow management system engineered to streamline assignment management, submission tracking, and instructor feedback, saving users up to 8 hours weekly. Built with React, Node.js, Express, and PostgreSQL, it eliminates lost attachments and delayed grading by centralizing coursework management in a clean, accessible interface.",
     category: "React",
     tags: ["React", "TypeScript", "Node.js", "PostgreSQL", "TailwindCSS", "JWT"],
     image: writifyImg,
@@ -94,12 +125,20 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Abrar-Husain-870/WritifyApp",
     spotlight: true,
     role: "Assignment Workflow",
-    impact: "React & PostgreSQL"
+    impact: "React & PostgreSQL",
+    features: [
+      "Google OAuth 2.0 authentication with secure stateless JWT session cookies",
+      "Assignment submission pipelines with file attachments and deadline countdowns",
+      "Instructor feedback and grading modules saving hours of administrative overhead",
+      "System-aware dark mode responsive UI built with React and Tailwind CSS",
+      "Comprehensive student dashboards and submission history tracking"
+    ]
   },
   {
     id: "jamaah-journal",
     title: "Jamā’ah Journal",
     description: "Multi-faith prayer & reflection tracker application with streak analytics, leaderboard, and PWA offline capability powered by Firebase and React 18.",
+    longDescription: "Jamā’ah Journal is a multi-faith prayer and reflection tracking web application serving 100+ active users. Engineered with offline-first Progressive Web App (PWA) standards, it empowers users to maintain daily spiritual routines anywhere, syncing effortlessly with Firebase Firestore upon reconnection.",
     category: "React",
     tags: ["React", "Firebase", "TailwindCSS", "PWA", "Analytics"],
     image: jamaahImg,
@@ -107,12 +146,20 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Abrar-Husain-870/PrayerTracker",
     spotlight: true,
     role: "Prayer Tracker",
-    impact: "React & Firebase"
+    impact: "React & Firebase",
+    features: [
+      "Daily prayer & reflection logging with streak analytics and habit tracking",
+      "Interactive community leaderboards to foster healthy motivational habits",
+      "Progressive Web App (PWA) with offline caching and mobile home-screen install",
+      "Firebase Auth and Firestore real-time synchronization across devices",
+      "Customizable privacy controls and personal journal reflection notes"
+    ]
   },
   {
     id: "keeper",
     title: "Keeper",
     description: "A Google Keep clone built with React and Firebase. Features user-specific note management via Firebase Auth and real-time Firestore database synchronization.",
+    longDescription: "A sleek, responsive Google Keep clone developed with React and Firebase, designed for fast thought capture and distraction-free note management. It features optimistic UI updates and real-time Firestore database synchronization for a desktop-caliber note-taking experience.",
     category: "React",
     tags: ["React", "Firebase", "Firestore", "Auth", "TailwindCSS"],
     image: keeperImg,
@@ -120,25 +167,19 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Abrar-Husain-870/Keeper-Clone",
     spotlight: false,
     role: "Notes Manager",
-    impact: "React & Firestore"
-  },
-  {
-    id: "move-it",
-    title: "Move It (Landing Page)",
-    description: "Transportation service landing page for furniture and logistics services. Built as a clean, responsive web page using semantically structured HTML and CSS.",
-    category: "HTML",
-    tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    image: moveitImg,
-    liveUrl: "https://abrar-husain-870.github.io/Move-It_website/",
-    githubUrl: "https://github.com/Abrar-Husain-870/Move-It_website/",
-    spotlight: false,
-    role: "Logistics Landing Page",
-    impact: "HTML5 & CSS3"
+    impact: "React & Firestore",
+    features: [
+      "Instant CRUD operations with optimistic state updates and zero latency",
+      "Firebase Authentication with user-isolated Firestore security rules",
+      "Note color tagging, pinning, and instant search filtering",
+      "Adaptive grid layout optimized for both desktop and mobile viewports"
+    ]
   },
   {
     id: "e-commerce-store",
     title: "E‑Commerce Store",
     description: "Single-page e-commerce storefront integrated with the Fake Store API. Features product browsing, detail views, cart state management, and item quantity updates.",
+    longDescription: "A single-page e-commerce storefront web application connected to the live Fake Store REST API. It provides a full shopping experience from product catalog discovery and dynamic search to cart state management with persistent local storage.",
     category: "React",
     tags: ["React", "TypeScript", "Material UI", "REST API", "React Router"],
     image: ecommerceImg,
@@ -146,7 +187,13 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Abrar-Husain-870/E-Commerce-App",
     spotlight: false,
     role: "Storefront Web App",
-    impact: "React & Material UI"
+    impact: "React & Material UI",
+    features: [
+      "Live REST API integration with real-time product catalogs and price updates",
+      "Interactive cart management with instant quantity modification and subtotal math",
+      "Product categorization and detailed view modals with Material UI styling",
+      "Smooth client-side routing and view state transitions with React Router"
+    ]
   }
 ];
 
@@ -224,6 +271,10 @@ export function generateBotResponse(userMessage: string): string {
     return "Syed is a Fullstack Developer proficient in React, Next.js, Node.js, Express, TypeScript, Python, Java, PostgreSQL, Supabase, Firebase, and Tailwind CSS. He also utilizes AI coding tools like Cursor, Claude AI, ChatGPT, Groq API, and Python data libraries like NumPy & Pandas!";
   }
 
+  if (msg.includes("finsight") || msg.includes("finance")) {
+    return "FinSight is an AI-powered personal finance manager that helps users track spending habits, measure financial health, and simulate future budgets with interactive sliders. It features real-time AI coaching, impulse purchase tracking, and CSV imports. Live demo: https://finsight-ai-updated.vercel.app/ | GitHub: https://github.com/Abrar-Husain-870/Finsight-AI";
+  }
+
   if (msg.includes("writify")) {
     return "Writify is a university student assignment platform built with React, TypeScript, Node.js, PostgreSQL, and Tailwind CSS. Live demo: https://writify-app-huxg.vercel.app/login | GitHub: https://github.com/Abrar-Husain-870/WritifyApp";
   }
@@ -249,12 +300,12 @@ export function generateBotResponse(userMessage: string): string {
   }
 
   if (msg.includes("project") || msg.includes("portfolio")) {
-    return "Syed has built projects including AppFlix, Writify, Jamā’ah Journal, Keeper, Move It, and E-Commerce Store. Check out the Featured Work section above!";
+    return "Syed has built projects including AppFlix, FinSight, Writify, Jamā’ah Journal, Keeper, and E-Commerce Store. Check out the Featured Work section above!";
   }
 
   if (msg.includes("hello") || msg.includes("hi") || msg.includes("hey")) {
     return "Hey there! I'm Syed Abrar Husain's virtual avatar. Feel free to ask me anything about his projects, skills, education, or experience!";
   }
 
-  return `Thanks for asking! Syed is a 4th-year B.Tech Computer Science student and Fullstack Developer skilled in React, Next.js, Node.js, Python, and PostgreSQL. You can check his featured projects (AppFlix, Writify, Jamā’ah Journal) or send him an email at husainabrar870@gmail.com!`;
+  return `Thanks for asking! Syed is a 4th-year B.Tech Computer Science student and Fullstack Developer skilled in React, Next.js, Node.js, Python, and PostgreSQL. You can check his featured projects (AppFlix, FinSight, Writify) or send him an email at husainabrar870@gmail.com!`;
 }

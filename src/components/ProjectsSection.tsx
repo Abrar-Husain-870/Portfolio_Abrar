@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { PROJECTS } from '../data/portfolioData';
+import { Project } from '../types/portfolio';
 import { ArticleCard } from './ui/blog-post-card';
+import { ProjectModal } from './ProjectModal';
 
-const CATEGORIES = ["All", "Next.js", "React", "HTML"];
+const CATEGORIES = ["All", "Next.js", "React"];
 
 export const ProjectsSection: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState("All");
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const filteredProjects = activeCategory === "All"
     ? PROJECTS
@@ -63,10 +66,17 @@ export const ProjectsSection: React.FC = () => {
               role={project.role}
               impact={project.impact}
               clampLines={3}
+              onClick={() => setSelectedProject(project)}
             />
           ))}
         </div>
       </div>
+
+      {/* Project Detail Modal Banner */}
+      <ProjectModal
+        project={selectedProject}
+        onClose={() => setSelectedProject(null)}
+      />
     </section>
   );
 };

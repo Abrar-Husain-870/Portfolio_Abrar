@@ -28,6 +28,13 @@
       "githubUrl": "https://github.com/Abrar-Husain-870/AppFlix"
     },
     {
+      "name": "FinSight",
+      "description": "AI-Powered Personal Finance Manager | React, TypeScript, Node.js, PostgreSQL",
+      "techStack": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+      "liveUrl": "https://finsight-ai-updated.vercel.app/",
+      "githubUrl": "https://github.com/Abrar-Husain-870/Finsight-AI"
+    },
+    {
       "name": "Writify",
       "description": "University student assignment platform with Google OAuth, JWT sessions, and PostgreSQL. Responsive React + Tailwind UI with dark mode for managing assignments and feedback.",
       "techStack": ["React", "TypeScript", "Node.js", "PostgreSQL", "TailwindCSS", "JWT"],
@@ -47,13 +54,6 @@
       "techStack": ["React", "Firebase", "Firestore", "Auth", "TailwindCSS"],
       "liveUrl": "https://keepon.netlify.app/",
       "githubUrl": "https://github.com/Abrar-Husain-870/Keeper-Clone"
-    },
-    {
-      "name": "Move It",
-      "description": "Transportation service landing page for furniture and logistics services. Built as a clean, responsive web page using semantically structured HTML and CSS.",
-      "techStack": ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-      "liveUrl": "https://abrar-husain-870.github.io/Move-It_website/",
-      "githubUrl": "https://github.com/Abrar-Husain-870/Move-It_website/"
     },
     {
       "name": "E-Commerce Store",

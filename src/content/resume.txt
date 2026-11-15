@@ -34,7 +34,14 @@ FEATURED PROJECTS & FULLSTACK WORK
    - Live Demo: https://appflix-com.netlify.app/
    - GitHub Repository: https://github.com/Abrar-Husain-870/AppFlix
 
-2. Writify (Student Assignment Platform)
+2. FinSight (AI-Powered Personal Finance Manager)
+   - Overview: An AI-powered personal finance manager that helps users track spending habits, measure financial health, and test future budget plans with interactive sliders. Features real-time AI coaching, impulse purchase tracking, and automated bank CSV imports.
+   - Core Features: Real-time AI financial coaching, 4-pillar health score engine, what-if budget simulation sliders, automated bank CSV parsing, privacy-first local deterministic ledger.
+   - Tech Stack: React, TypeScript, Node.js, PostgreSQL, Tailwind CSS.
+   - Live Demo: https://finsight-ai-updated.vercel.app/
+   - GitHub Repository: https://github.com/Abrar-Husain-870/Finsight-AI
+
+3. Writify (Student Assignment Platform)
    - Overview: Writify is a university assignment workflow system engineered to streamline assignment management, submission tracking, and instructor feedback, saving users up to 8 hours weekly.
    - Core Features: Google OAuth 2.0 authentication, JWT session management, dark mode responsive UI, assignment author profiles.
    - Tech Stack: React, TypeScript, Node.js, Express, PostgreSQL, Tailwind CSS, JWT.
@@ -55,14 +62,7 @@ FEATURED PROJECTS & FULLSTACK WORK
    - Live Demo: https://keepon.netlify.app/
    - GitHub Repository: https://github.com/Abrar-Husain-870/Keeper-Clone
 
-5. Move It (Logistics Landing Page)
-   - Overview: A modern, responsive marketing website for a furniture moving and logistics service.
-   - Core Features: Responsive UI/UX, service showcase, contact forms, cross-browser compatibility.
-   - Tech Stack: HTML5, CSS3, JavaScript.
-   - Live Demo: https://abrar-husain-870.github.io/Move-It_website/
-   - GitHub Repository: https://github.com/Abrar-Husain-870/Move-It_website/
-
-6. E-Commerce Store (Storefront Web App)
+5. E-Commerce Store (Storefront Web App)
    - Overview: A single-page storefront connected to the Fake Store API featuring product browsing, detailed views, and cart state management.
    - Core Features: Product filtering, dynamic cart quantity updates, REST API integration, Material UI components.
    - Tech Stack: React, TypeScript, Material UI, REST API, React Router.
